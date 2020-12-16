@@ -1,1 +1,23 @@
-<p>first works!</p>
+<div class="container">
+    <h5>First component</h5>
+    <p style="color:rgba(18, 7, 116, 0.322);">BLorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>     
+    
+    
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="'alpha'">Alpha</a>
+        </li>   
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="'beta'">Beta</a>
+        </li>   
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="'gamma'">Gamma</a>
+        </li>      
+    </ul>
+
+    <router-outlet></router-outlet>
+
+    
+    <h5>First Component Ends....</h5>
+    <hr>
+</div>
