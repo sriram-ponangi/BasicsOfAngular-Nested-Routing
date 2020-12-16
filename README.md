@@ -29,15 +29,32 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Commands Used:
 
-## npm install bootstrap jquery popper --save
-- Add the follwoing to **angular.json** :
-```json
-"styles": [
-    "src/styles.scss",
-    "node_modules/bootstrap/dist/css/bootstrap.min.css"
-],
-"scripts": [
-    "node_modules/jquery/dist/jquery.min.js",
-    "node_modules/bootstrap/dist/js/bootstrap.min.js"
-]
-```
+- ## npm install bootstrap jquery popper --save
+    - Add the follwoing to **angular.json** :
+        ```json
+        "styles": [
+            "src/styles.scss",
+            "node_modules/bootstrap/dist/css/bootstrap.min.css"
+        ],
+        "scripts": [
+            "node_modules/jquery/dist/jquery.min.js",
+            "node_modules/bootstrap/dist/js/bootstrap.min.js"
+        ]
+        ```
+- ## ng generate component one
+- ## ng generate component three
+- ## ng generate component page404
+
+- ## ng generate module two --routing=true
+- ## ng generate component two --module two
+- ## ng generate component two/page404two --module two
+- ## ng generate component two/second --module two
+
+- ## ng generate module two/first --routing=true --module two
+- ## ng generate component two/first --module two/first
+- ## ng generate component two/first/alpha --module two/first
+- ## ng generate component two/first/beta --module two/first
+- ## ng generate component two/first/gamma --module two/first
+- ## ng generate component two/first/page404first --module two/first
+
+
